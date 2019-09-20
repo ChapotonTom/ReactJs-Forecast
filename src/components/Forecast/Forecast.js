@@ -174,6 +174,7 @@ class Forecast extends React.Component {
                                 selected={this.state.currentForecast.date}
                                 onChange={this.handleDateChange}
                                 minDate={new Date()}
+                                maxDate={new Date().setFullYear(new Date().getFullYear() + 1)}
                                 placeholderText="Select a date between today and 5 days in the future"
                                 className="date_input"
                             />
