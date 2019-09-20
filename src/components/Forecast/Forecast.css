@@ -1,0 +1,126 @@
+/* HEAD & CONTENT */
+.content {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    width: 30%;
+    height: 35%;
+}
+
+.head {
+    height: 20%;
+    border-radius: 10px;
+
+    background: #00a2ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #00a2ff , #6dd5ed);
+    background: linear-gradient(to right, #00a2ff , #6dd5ed);
+
+    width: 100%;
+    display: table;
+    color: white;
+}
+
+.headTitle {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* BLOCK GRID */
+.container_inputs {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(248, 247, 247, 0.877);
+    border-radius: 15px;
+}
+
+.row { height: 50%; }
+
+/* INPUTS */
+.selection {
+    height: 60%;
+    position: relative;
+    margin-top: 30%;
+}
+
+.select {
+    height: 60%;
+}
+
+.form-control, .container_block { box-shadow: 2px 2px 4px #aaa; }
+
+.fa-map-marker-alt {
+    position: absolute;
+    left: 5%;
+    top: 15%;
+}
+
+/* DATE INPUT */
+.date {
+    width: 80%;
+    height: 30%;
+    padding-top: 5%;
+    margin-left: 8%;
+    text-align: center;
+    align-items: center;
+}
+
+.rest_input { padding-left: 20%; }
+
+.date_input {
+    margin-left: 10%;
+    border: 0;
+    width: 70%;
+}
+
+
+/* FORECAST INPUT */
+.forecast { 
+    width: 60%;
+    margin-top: 8%;
+    height: 20%;
+    float: right;
+    margin-right: 20%;     
+    font-weight: bold;
+}
+
+.btn {
+    background-color: rgb(116, 224, 188);
+    color: white;
+    border: 0;
+}
+
+.btn-dark:hover {
+    background-color: rgb(104, 202, 169);
+    border: lightgray;
+}
+
+/* FORECAST BLOCK */
+.container_block {
+    width: 80%;
+    height: 80%;
+    border-radius: 5px;
+    display: table;
+}
+
+.row_f { height: 30%;}
+
+.col_f {
+    font-size: 23px;
+    font-weight: bold;
+    height: 70%;
+    padding-top: 5%;
+    display: table-cell; 
+    vertical-align: middle;
+    text-align: center;
+}
+    /* TEXT STYLE */
+    .m_f { font-size: 36px; }
+    
+    .blue { color: rgb(0, 195, 255); }
+
+    .gray { color: grey }
+
+    .lightgray { color: lightgray }
